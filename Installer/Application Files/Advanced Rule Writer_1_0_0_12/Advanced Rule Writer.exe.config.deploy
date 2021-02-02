@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="RuleWriter.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <system.diagnostics>
+        <sources>
+            <!-- This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information" />
+        </switches>
+        <sharedListeners>
+            <add name="FileLog"
+                 type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL"
+                 initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+    <userSettings>
+        <RuleWriter.My.MySettings>
+            <setting name="ShowLine1" serializeAs="String">
+                <value>Yes</value>
+            </setting>
+            <setting name="ShowLine2" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="ShowLine3" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="ShowLine4" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="ShowLine5" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="Value1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line1Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line2Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line3Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line4Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line5Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ListBox" serializeAs="String">
+                <value>1. |2. |3. |4. |5.</value>
+            </setting>
+            <setting name="V1" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Value10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option3_10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option2_10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="option1_10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ValueCode10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ShowLine6" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="ShowLine7" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="ShowLine8" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="ShowLine9" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="ShowLine10" serializeAs="String">
+                <value>No</value>
+            </setting>
+            <setting name="Line6Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line7Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line8Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line9Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Line10Pass" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="V10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cor10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Cand10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Start" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="EndOfCode" serializeAs="String">
+                <value />
+            </setting>
+        </RuleWriter.My.MySettings>
+    </userSettings>
+</configuration>
